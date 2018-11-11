@@ -8,10 +8,64 @@
           height: 200px;
           width: 200px;
       }
+      .title{
+         font-size: 20px;
+         font-style: times;
+         color: #ffffff;
+         background:#4aaaa5;
+         width: 200px;
+        
+         left:130px;
+
+        }
+        h1{
+           font-size: 48px;
+           font-style: times;
+           border-style: solid;
+           border-color: #ffffff;
+           border-bottom-color: #666666;
+           border-width: 98%;
+           color:#4aaaa5;
+    
+        }  
+        .wrapper{
+     
+             background-image: url("folk-pattern.png"); 
+             padding: 15%;
+             padding-right: 100px;
+             border: solid;
+             border-color: #ffffff;
+             border-top-color: lightgrey;
+             border-top-width: 2px;
+        }
+        .mainsectioncontent{
+         /*width:600px;*/
+         /*height: 400px;*/
+         background-color: #ffffff;
+         
+         padding: 5px;
+         border-color: #ffffff;
+         border-top-color: lightgrey;
+         border-top-width: 2px;
+         
+        }
+        .footer{
+         background-color:#666666;
+         display: block;
+         text-align: center;
+         height: 30px;
+         widows: 1000px;
+
+        }
+        .bordertop{
+         background: #4aaaa5;
+         height: 8px;
+        }
+       
   </style>
   <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Monet Thigpen</a>
+                <a class="navbar-brand title" href="#">Monet Thigpen</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,55 +83,59 @@
                   </ul>
                 </div>
               </nav>
-      <div class="container jumbotron">
-          <div class="row">
+      <div class="container wrapper">
+          <div class="row mainsectioncontent">
               <div class="col-lg-12">
                   <h1>Portfolio</h1>
               </div>
               
 
           </div>
-          <div class="row">
-              <div class="col-lg-3 thumbnail text-center">
-                    <img alt="Animal" class="img-responsive" src="animals.jpg">
+          <div class="row mainsectioncontent">
+              <div class="col-lg-4 thumbnail text-center">
+                    <img alt="Animal" class="img-responsive " src="animals.jpg">
                     <div class="caption">
-                            <button type="button" class="btn btn-primary btn-lg">Animals</button>
+                            <a class="a text-center" href="#">Animals</a>
                      </div>
               </div>
-              <div class="col-lg-3 thumbnail text-center">
+              <div class="col-lg-4 thumbnail text-center">
                     <img alt="Animal" class="img-responsive" src="nature.jpg">
                     <div class="caption">
-                            <button type="button" class="btn btn-primary btn-lg">Nature</button>
+                            <a class="a text-center" href="#">Nature</a>
                   </div>
               </div>
           </div>
-          <div class="row">
-              <div class="col-lg-3 thumbnail text-center">
+          <div class="row mainsectioncontent">
+              <div class="col-lg-4 thumbnail text-center">
                     <img alt="Animal" class="img-responsive" src="arch.jpg">
                     <div class="caption">
-                            <button type="button" class="btn btn-primary btn-lg">Architecture</button>
+                            <a class="a text-center" href="#">Architecture</a>
                   </div>
 
               </div>
-              <div class="col-lg-3 thumbnail text-center">
+              <div class="col-lg-4 thumbnail text-center">
                     <img alt="Animal" class="img-responsive" src="tech.jpg">
                     <div class="caption">
-                            <button type="button" class="btn btn-primary btn-lg">Tech</button>
+                            <a class="a text-center" href="#">Tech</a>
                   </div>
 
               </div>
           </div>
-          <div class="row">
-                <div class="col-lg-3 thumbnail text-center">
+          <div class="row mainsectioncontent">
+                <div class="col-lg-4 thumbnail text-center">
                         <img alt="Animal" class="img-responsive" src="grayscale.jpg">
                         <div class="caption">
-                                <button type="button" class="btn btn-primary btn-lg">Grayscale</button>
+                                <a class="a text-center" href="#">Grayscale</a>
                       </div>
 
                 </div>
           </div>
 
       </div>
+      <div>
+         <div class="bordertop"></div>
+         <div class="footer">copyright@</div>
+        </div>
   </body>
 </html>
 
