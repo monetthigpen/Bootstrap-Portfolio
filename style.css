@@ -1,0 +1,45 @@
+
+
+.jum{
+    background-image: url("./pexels-photo-1449082.jpg");
+    background-color:black;
+    height: 50vh;
+    /* opacity: 0.5; */
+    width:100%;
+    height:40%;
+    
+}
+.font{
+    font-family: 'Monoton', cursive;
+    color: red;
+    
+}
+.transbox {
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    margin-left: 6%;
+    margin-right: 6%;
+}
+  
+.transbox p {
+    /* margin: 5%; */
+    font-weight: bold;
+    color: red;
+}
+.tab { text-indent: 40px; };
+.imgmon{
+    height:200px;
+}
+.abttxt{
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    color: red;
+}
+.aboutback{
+    background-image: linear-gradient(to right bottom, #176c7a, #578b9c, #8aabbc, #bbcddb, #eaf1f9);
+}
+.cardback{
+    background-color: #eaf1f9;
+}
