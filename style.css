@@ -41,5 +41,23 @@
     background-image: linear-gradient(to right bottom, #176c7a, #578b9c, #8aabbc, #bbcddb, #eaf1f9);
 }
 .cardback{
-    background-color: #eaf1f9;
+    background-color:  rgba(223,233,231,.5);
 }
+.cardback:hover {
+    background-color: transparent; 
+    transition: background-color 1s linear;     
+ }
+.abtdiv {
+    
+    background:  rgba(223,233,231,.5);    
+ 
+    /* transition the background-color over 1s with a linear animation */
+    transition: background-color 1s linear;
+ }
+ 
+ /* the :hover that causes the background-color to change */
+ .abtdiv:hover {
+    background-color: transparent;  
+        
+ }
+ 
