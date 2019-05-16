@@ -7,101 +7,69 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
             <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
             <link rel = "stylesheet" type = "text/css" href="./style.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     </head>
-    <body class="conatiner aboutback"> 
-          
-        
-        <div class="jumbotron text-center jum">
-            <div class="transbox">
-                <h1 class="display-4 font text-center" >Monet Thigpen</h1>
-                <p class="lead text-center"  > 
-                    <i>"I have a passion for creating and innovating  businesses' web presence."</i>
-                </p>  
-            </div>
-            <br>
-            <div class="dropdown">
-                    <a class="btn btn-secondary btn-lg dropdown-toggle text-center" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Learn More
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                      <a class="dropdown-item" href="M_Resume.pdf" download="FileName" target="_blank">Download My Resume</a>
-                    </div>
-            </div>
-        </div>
-        <!-- <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">   
-                <div class="card cardback border-dark">
-                        <div class="media">
-                            <img src="./image.png" style="height:200px; width: 200px;"class="align-self-center" alt="...">
-                            <div class="media-body">
-                                <h5 class="mt-2 abttxt">About Me</h5>
-                                <hr class="my-4 mr-3">
-                                <p class="tab mr-3">I am a Full Stack Web Developer, trained at the University of Pennsylvania with a passion for all things Web. I know that now and in the future all successful businesses will have a Web presence, so I want to create and innovate what businesses can do to improve their presence. The programming languages I have learned such as JavaScript, CSS, HTML, and Node.js have allowed me to create intelligence that is beneficial to the user and business owner. This has not happened on its own, in the past I have thrived working in a team environment. Working with people in teams and one-on-one, have been a driving force in the creation of ideas to the manifestation of those ideas on  web pages. I aspire to work with different companies, small or large, to create platforms that bring people and businesses together .</p>
-                            </div>
-                        </div>     
+    
+    <body class="aboutback">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light navback">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand " href="index.html"><span class="namefont">Monet Thigpen</span></a>
+          <ul class="navbar-nav navtxt mr-auto mt-2 mt-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link navtxt" href="index.html"><span class="navtxt">About</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul >
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item ">
+              <a href="M_Resume.pdf" download="FileName" target="_blank" ><button type="button" class="btn btn-sm btn-outline-dark mt-lg-1"><span class="nbtxt">Download My Resume</span></button></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 ✉
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <p class="dropdown-item">monet.thigpen@gmail.com</p>
                 </div>
-            </div> 
-            <div class="col-md-1"></div> 
-        </div> -->
-        
-        <div class="Row mr-4 ml-4 r" >
-          <!-- <div class="col-md-1"></div> -->
-          <div class="col-md-12 abtdiv">
-            <div></div>
-            <h1 class="text-center abttxt mt-4">About Me</h1>
-            <hr class="my-4 mr-2 ml-2">
-            <img class=" float-left" style="height: 150px; width: 200px;" src="./image.png" alt="Monet">
-             <p class="tab mr-3">I am a Full Stack Web Developer, trained at the University of Pennsylvania with a passion for all things Web. I know that now and in the future all successful businesses will have a Web presence, so I want to create and innovate what businesses can do to improve their presence.</P> 
-             <p> The programming languages I have learned such as JavaScript, CSS, HTML, and Node.js have allowed me to create intelligence that is beneficial to the user and business owner. This has not happened on its own, in the past I have thrived working in a team environment. Working with people in teams and one-on-one, have been a driving force in the creation of ideas to the manifestation of those ideas on  web pages. I aspire to work with different companies, small or large, to create platforms that bring people and businesses together .</p>
-             <hr class="my-4 mr-2 ml-2">
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ☎
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <p class="dropdown-item">215-962-1951</p>
+                </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://www.linkedin.com/in/monet-thigpen-707001172/" target="_blank"><i style="font-size:24px" class="fa">&#xf08c;</i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://github.com/monetthigpen" target="_blank"><i style="font-size:24px" class="fa">&#xf092;</i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="Jumbotron-fluid mt-lg-0 abtdiv">
+          <div class="col-md-12 ">
+              
+              <h1 class="text-center abttxt mt-4">About Me</h1>
+              <hr >
+              <div>
+                <img class="rounded float-left img-thumbnail mr-2" style="height: 350px; width: 300px;" src="./profile.jpg" alt="Monet">
+                <div class="mt-4">
+                <p class="tab abtp ml-2 mt-4 mr-3">I am a Full Stack Web Developer, trained at the University of Pennsylvania with a passion for all things Web. I know that now and in the future all successful businesses will have a Web presence, so I want to create and innovate what businesses can do to improve their presence.</P> 
+                <p class="tab abtp ml-2 mr-3"> The programming languages I have learned such as JavaScript, CSS, HTML, and Node.js have allowed me to create intelligence that is beneficial to the user and business owner. This has not happened on its own, in the past I have thrived working in a team environment. Working with people in teams and one-on-one, have been a driving force in the creation of ideas to the manifestation of those ideas on  web pages. I aspire to work with different companies, small or large, to create platforms that bring people and businesses together .</p>
+               </div>
+              </div> 
+               <hr class="my-4 mr-2 ml-2">
           </div>
-          <!-- <div class="col-md-1"></div> -->
-        </div>
-        <br>
-        <br>
-        <div class="row">
-                
-                    <div class="col-md-1"></div>
-                        <div class="col-md-3">
-                          <div class="card cardback ">
-                            <div class="card-body">
-                              <h5 class="card-title font">Phone:</h5>
-                              <hr class="my-4">
-                              
-                              <p class="card-text">1-215-962-1951</p>
-                              
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="card cardback r">
-                            <div class="card-body">
-                              <h5 class="card-title font">Email:</h5>
-                              <hr class="my-4">
-                              
-                              <p class="card-text">monet.thigpen@gmail.com</p>
-                              
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                                <div class="card cardback ">
-                                  <div class="card-body">
-                                    <h5 class="card-title font">LinkedIn:</h5>
-                                    <hr class="my-4">
-        
-                                    <a href="https://www.linkedin.com/in/monet-thigpen-707001172/" class="card-link" target="_blank">Checkout My Profile</a>
-                                  </div>
-                                </div>
-                        </div>
-                
-                <div class="col-md-2"></div>
-        </div>
-        <br>
-        <br>
-        </div>    
+
+      </div>
     </body>
 </html>

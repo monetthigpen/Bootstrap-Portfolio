@@ -1,14 +1,4 @@
 
-
-.jum{
-    background-image: url("./pexels-photo-1449082.jpg");
-    background-color:black;
-    height: 50vh;
-    /* opacity: 0.5; */
-    width:100%;
-    height:40%;
-    
-}
 .font{
     font-family: 'Monoton', cursive;
     color: red;
@@ -33,12 +23,16 @@
     height:200px;
 }
 .abttxt{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Monoton', cursive;
-    color: red;
+    color: black;
 }
 .aboutback{
-    background-image: linear-gradient(to right bottom, #176c7a, #578b9c, #8aabbc, #bbcddb, #eaf1f9);
+    background: linear-gradient(169deg, rgba(255,247,253,1) 0%, rgba(189,153,135,0.9363095580028886) 100%);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;  
+    
 }
 .cardback{
     background-color:  rgba(223,233,231,.5);
@@ -49,15 +43,39 @@
  }
 .abtdiv {
     
-    background:  rgba(223,233,231,.5);    
- 
-    /* transition the background-color over 1s with a linear animation */
+    background:  transparent;    
     transition: background-color 1s linear;
  }
  
- /* the :hover that causes the background-color to change */
  .abtdiv:hover {
-    background-color: transparent;  
+    background-color: rgba(223,233,231,.5);  
         
  }
+.abtp{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.namefont{
+    font-family: 'Monoton', cursive;
+    color: red;
+    font-size: 45px;
+    
+}
+.navback{
+    background-color: transparent;
+}
+hr{
+    background-color: black;
+    border: 0 none;
+    color: black;
+    height: 3px;
+}
+.navtxt{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nbtxt{
+    /* font-size: 10px; */
+    font-family: 'Ubuntu', sans-serif;
+}
  
